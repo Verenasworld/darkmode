@@ -15,7 +15,7 @@ const Toggle = styled.button`
     &:focus {
         outline: none;
     }
-    transition: all .5s ease;
+    transition: all .7s ease;
 `;
 
 const Page = styled.div`
@@ -25,7 +25,7 @@ const Page = styled.div`
   height: 100vh;
   width: 100%;
   background-color: ${props => props.theme.pageBackground};
-  transition: all .5s ease;
+  transition: all .7s ease;
 `;
 
 const Container = styled.div`
@@ -36,13 +36,13 @@ const Container = styled.div`
 
 const Title = styled.h1`
     color: ${props => props.theme.titleColor};
-    transition: all .5s ease;
+    transition: all .7s ease;
 `;
 
 const TagLine = styled.span`
     color: ${props => props.theme.tagLineColor};
     font-size: 18px;
-    transition: all .5s ease;
+    transition: all .7s ease;
 `;
 
 
