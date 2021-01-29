@@ -68,8 +68,8 @@ function Splash(props) {
                 <Toggle onClick={changeTheme}>
                   {icon}
                 </Toggle>
-                <Title>MyWebprofi.net</Title>
-                <TagLine>Let your website shine</TagLine>
+                <Title>MyWebProfi</Title>
+                <TagLine>www.mywebprofi.net</TagLine>
                 <SociIcon> <AiFillHome/>  <AiFillInstagram/> <AiFillFacebook/>
                 </SociIcon>
 
