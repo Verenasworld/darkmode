@@ -5,14 +5,16 @@ import { ThemeProvider } from "styled-components";
 
 const LightTheme = {
   pageBackground: "white",
-  titleColor: "#dc658b",
-  tagLineColor: "black"
+  titleColor: "#43A9BA",
+  tagLineColor: "black",
+  iconColor: "#43A9BA"
 };
 
 const DarkTheme = {
   pageBackground: "#282c36",
-  titleColor: "lightpink",
-  tagLineColor: "lavender"
+  titleColor: "#79d3e2",
+  tagLineColor: "lavender",
+  iconColor: "white",
 }
 
 const themes = {

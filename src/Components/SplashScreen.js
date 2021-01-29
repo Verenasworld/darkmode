@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { CgSun } from "react-icons/cg";
 import { HiMoon } from "react-icons/hi";
+import {AiFillFacebook, AiFillHome, AiFillInstagram} from "react-icons/all";
+import "./SplashScreen.css";
 
 const Toggle = styled.button`
     cursor: pointer;
@@ -43,6 +45,12 @@ const TagLine = styled.span`
     transition: all .5s ease;
 `;
 
+
+const SociIcon = styled.a`
+    font-size: 50px;
+    color: ${props => props.theme.iconColor}; 
+`;
+
 function Splash(props) {
     function changeTheme() {
         if (props.theme === "light") {
@@ -58,10 +66,13 @@ function Splash(props) {
         <Page>
             <Container>
                 <Toggle onClick={changeTheme}>
-                    {icon}
+                  {icon}
                 </Toggle>
-                <Title>Coding With Chaim</Title>
-                <TagLine>Level up your web development skills!</TagLine>
+                <Title>MyWebprofi.net</Title>
+                <TagLine>Let your website shine</TagLine>
+                <SociIcon> <AiFillHome/>  <AiFillInstagram/> <AiFillFacebook/>
+                </SociIcon>
+
             </Container>
         </Page>
     );
